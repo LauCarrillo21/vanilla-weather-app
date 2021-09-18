@@ -1,5 +1,5 @@
     body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif; ;
 
 }
 
@@ -27,11 +27,17 @@
     line-height: 19px;
     text-transform: capitalize;
 }
+
+.hello {
+    max-width:600px;
+    margin: 30px auto;
+}
+
+
    
     .weather-app-wrapper {
         max-width:600px;
         margin: 30px auto;
-
     }
 
     
@@ -105,3 +111,16 @@
         font-size: 13px;
         color: #000;
       }
+
+    #search {
+        background-color: black;
+        color: white;
+        border: black;
+        transition: 200ms;
+    }
+
+    #search:hover {
+        background-color: #444444 ;
+        color: whitesmoke;
+        cursor: pointer;
+    }
